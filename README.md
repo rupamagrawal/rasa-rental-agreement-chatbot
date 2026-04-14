@@ -2,7 +2,6 @@
 
 An AI-powered chatbot that explains rent agreement clauses in simple language and highlights potential risks using RASA and Gemini API.
 
----
 
 ## 🚀 Features
 
@@ -13,7 +12,6 @@ An AI-powered chatbot that explains rent agreement clauses in simple language an
 - 📄 Document upload support (PDF / TXT)
 - 🔐 Privacy-friendly (no data stored)
 
----
 
 ## 🧠 Tech Stack
 
@@ -22,7 +20,6 @@ An AI-powered chatbot that explains rent agreement clauses in simple language an
 - Streamlit (Frontend UI)
 - Python
 
----
 
 ## ⚙️ How It Works
 
@@ -35,14 +32,12 @@ An AI-powered chatbot that explains rent agreement clauses in simple language an
    - Risk points  
    - Risk level
   
----
 
 ## ⚠️ Disclaimer
 
 This bot provides AI-generated explanations for educational purposes only.  
 It does not constitute legal advice.
 
----
 
 ## 🎯 Future Improvements
 
@@ -50,5 +45,3 @@ It does not constitute legal advice.
 - Highlight risky terms  
 - Deployment on cloud (Render / Railway)  
 - User session history  
-
-
