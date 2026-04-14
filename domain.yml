@@ -1,0 +1,42 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - explain_clause
+  - upload_document
+  - ask_risk
+  - nlu_fallback
+
+responses:
+  utter_greet:
+    - text: "Hey! 👋 I can help you understand rent agreement clauses. Paste any clause to get started."
+
+  utter_goodbye:
+    - text: "Goodbye! 👋 Feel free to come back if you need help with agreements."
+
+  utter_thanks:
+    - text: "You're welcome! 😊 Let me know if you want to check another clause."
+
+  utter_iamabot:
+    - text: "I am an AI assistant that explains legal clauses."
+
+  utter_disclaimer:
+    - text: "⚠️ I can explain legal clauses but this is not legal advice."
+
+  utter_ask_clause:
+    - text: "Please paste the clause you want me to explain."
+
+actions:
+  - action_explain_clause
+
+slots:
+  clause:
+    type: text
+    mappings:
+      - type: from_text
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

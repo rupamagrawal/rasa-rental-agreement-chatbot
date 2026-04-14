@@ -1,0 +1,56 @@
+# version: "3.1"
+
+# stories:
+
+# - story: explain clause flow
+#   steps:
+#   - intent: explain_clause
+#   - action: action_explain_clause
+
+# - story: risk flow
+#   steps:
+#   - intent: ask_risk
+#   - action: action_explain_clause
+
+# - story: upload flow
+#   steps:
+#   - intent: upload_document
+#   - action: action_explain_clause
+
+# - story: guided flow
+#   steps:
+#   - intent: upload_document
+#   - action: utter_ask_clause
+#   - intent: provide_clause
+#   - action: action_explain_clause
+
+# - story: explain flow
+#   steps:
+#   - intent: explain_clause
+#   - action: action_explain_clause
+
+# - story: risk flow
+#   steps:
+#   - intent: ask_risk
+#   - action: action_explain_clause
+
+version: "3.1"
+
+stories:
+
+- story: explain clause flow
+  steps:
+  - intent: explain_clause
+  - action: action_explain_clause
+
+- story: risk flow
+  steps:
+  - intent: ask_risk
+  - action: action_explain_clause
+
+- story: upload flow
+  steps:
+  - intent: upload_document
+  - action: utter_ask_clause
+  - intent: provide_clause
+  - action: action_explain_clause

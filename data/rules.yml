@@ -1,0 +1,23 @@
+version: "3.1"
+
+rules:
+
+- rule: greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: goodbye user
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: thanks user
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+- rule: fallback to AI
+  steps:
+  - intent: nlu_fallback
+  - action: action_explain_clause

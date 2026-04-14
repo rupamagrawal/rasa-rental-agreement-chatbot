@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+rasa_env/
+env/
+
+# Rasa cache
+.rasa/
+
+# Models
+models/
+
+# Secrets
+.env
+
+# OS
+.DS_Store

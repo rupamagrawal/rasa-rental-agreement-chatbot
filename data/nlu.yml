@@ -1,0 +1,189 @@
+# version: "3.1"
+
+# nlu:
+# - intent: greet
+#   examples: |
+#     - hey
+#     - hello
+#     - hi
+#     - hello there
+#     - good morning
+#     - good evening
+#     - moin
+#     - hey there
+#     - let's go
+#     - hey dude
+#     - goodmorning
+#     - goodevening
+#     - good afternoon
+#     - yo bro
+
+# - intent: goodbye
+#   examples: |
+#     - cu
+#     - good by
+#     - cee you later
+#     - good night
+#     - bye
+#     - goodbye
+#     - have a nice day
+#     - see you around
+#     - bye bye
+#     - see you later
+
+# # - intent: affirm
+# #   examples: |
+# #     - yes
+# #     - y
+# #     - indeed
+# #     - of course
+# #     - that sounds good
+# #     - correct
+
+# # - intent: deny
+# #   examples: |
+# #     - no
+# #     - n
+# #     - never
+# #     - I don't think so
+# #     - don't like that
+# #     - no way
+# #     - not really
+
+# # - intent: mood_great
+# #   examples: |
+# #     - perfect
+# #     - great
+# #     - amazing
+# #     - feeling like a king
+# #     - wonderful
+# #     - I am feeling very good
+# #     - I am great
+# #     - I am amazing
+# #     - I am going to save the world
+# #     - super stoked
+# #     - extremely good
+# #     - so so perfect
+# #     - so good
+# #     - so perfect
+
+# # - intent: mood_unhappy
+# #   examples: |
+# #     - my day was horrible
+# #     - I am sad
+# #     - I don't feel very well
+# #     - I am disappointed
+# #     - super sad
+# #     - I'm so sad
+# #     - sad
+# #     - very sad
+# #     - unhappy
+# #     - not good
+# #     - not very good
+# #     - extremly sad
+# #     - so saad
+# #     - so sad
+
+# - intent: bot_challenge
+#   examples: |
+#     - are you a bot?
+#     - are you a human?
+#     - am I talking to a bot?
+#     - am I talking to a human?
+
+# - intent: explain_clause
+#   examples: |
+#     - explain this clause
+#     - what does this mean
+#     - simplify this agreement
+#     - break this down
+#     - explain in simple words
+#     - what is written here
+#     - help me understand this clause
+#     - can you explain this
+
+# - intent: upload_document
+#   examples: |
+#     - I want to upload agreement
+#     - analyze my rent agreement
+
+# - intent: ask_risk
+#   examples: |
+#     - is this risky
+#     - any problem in this clause
+
+
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - hey there
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you human?
+    - who are you?
+
+- intent: explain_clause
+  examples: |
+    - explain this clause
+    - what does this mean
+    - simplify this agreement
+    - break this down
+    - explain in simple words
+    - help me understand this clause
+    - can you explain this
+
+- intent: upload_document
+  examples: |
+    - I want to upload agreement
+    - analyze my rent agreement
+    - check my agreement
+
+- intent: ask_risk
+  examples: |
+    - is this risky
+    - any problem in this clause
+    - is there any risk here
+
+- intent: provide_clause
+  examples: |
+    - Tenant must pay ₹5000 penalty per day
+    - landlord can evict anytime
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - hi there
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - see you later
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thank you
+    - thanks a lot
+    - appreciate it
