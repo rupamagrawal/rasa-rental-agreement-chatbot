@@ -33,8 +33,9 @@ An AI-powered chatbot that explains rent agreement clauses in simple language an
 5. Response returned with:
    - Simple explanation  
    - Risk points  
-   - Risk level  
-
+   - Risk level
+  
+---
 
 ## ⚠️ Disclaimer
 
@@ -50,4 +51,4 @@ It does not constitute legal advice.
 - Deployment on cloud (Render / Railway)  
 - User session history  
 
----
+
